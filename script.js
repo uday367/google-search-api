@@ -1,7 +1,7 @@
 document.getElementById('searchButton').addEventListener('click', () => {
     const query = document.getElementById('searchQuery').value;
-    const apiKey = 'AIzaSyDObvCfMTjdRBBRlozg-u9VMmZM1QnUWZg'; // Replace with your actual API key
-    const cx = '31e690420682c4a92'; // Replace with your Custom Search Engine ID
+    const apiKey = 'AIzaSyDObvCfMTjdRBBRlozg-u9VMmZM1QnUWZg';
+    const cx = '31e690420682c4a92'; 
 
     if (!query) {
         alert('Please enter a search query.');
